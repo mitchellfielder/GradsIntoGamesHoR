@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5066079788472714443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5549987343295028849}
+  m_Layer: 0
+  m_Name: HotelRoomDoorLocked
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5549987343295028849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066079788472714443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.41, y: -0.06682959, z: 6.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8145540656568440173}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8538964997558956678
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5549987343295028849}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6827ca5700cc42b4b8cef03f3fc12855, type: 2}
+    - target: {fileID: -1461304994638716399, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6827ca5700cc42b4b8cef03f3fc12855, type: 2}
+    - target: {fileID: -1461304994638716399, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4cb7c93278baae4b823db487769b8d5, type: 2}
+    - target: {fileID: 266100936513855477, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23bccf3fd54893444876d102ecbad6da, type: 2}
+    - target: {fileID: 919132149155446097, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_Name
+      value: HotelRoomDoorLocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 8439796992618771461, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23bccf3fd54893444876d102ecbad6da, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+--- !u!4 &8145540656568440173 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9e4ef77c9d578524fbdfc74162ba2af2, type: 3}
+  m_PrefabInstance: {fileID: 8538964997558956678}
+  m_PrefabAsset: {fileID: 0}

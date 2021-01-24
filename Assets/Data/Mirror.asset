@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: Mirror
+  m_EditorClassIdentifier: 
+  _beats:
+  - _text: 
+    _id: 1
+    _choices:
+    - _text: Where am I?
+      _beatId: 2
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: Who am I?
+      _beatId: 3
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: What happened to me?
+      _beatId: 6
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: '>Leave'
+      _beatId: 0
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: 
+    _id: 2
+    _choices:
+    - _text: I don't know.
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: I must live here.
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: Why don't I remember?
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: '>Leave'
+      _beatId: 0
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: 
+    _id: 3
+    _choices:
+    - _text: I don't know
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: I'm me.
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: I'm sure I can remember something if I concentrate.
+      _beatId: 4
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: '>Leave'
+      _beatId: 0
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: 
+    _id: 4
+    _choices:
+    - _text: ...
+      _beatId: 5
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: '>Leave'
+      _beatId: 0
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: 
+    _id: 5
+    _choices:
+    - _text: The pain is too disorientating.
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: '>Leave'
+      _beatId: 0
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: 
+    _id: 6
+    _choices:
+    - _text: I was attacked.
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: I must have been in an accident
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: I fell.
+      _beatId: 1
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: '>Leave'
+      _beatId: 0
+      _isAvailable: 1
+      _invokeEvent: -1

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: You looked at the crawling horror
+  m_EditorClassIdentifier: 
+  _beats:
+  - _text: Y o u   l o o k   s u p r i s e d
+    _id: 1
+    _choices:
+    - _text: Stay away from me
+      _beatId: 2
+      _isAvailable: 0
+      _invokeEvent: 4
+    - _text: What the hell?
+      _beatId: 2
+      _isAvailable: 0
+      _invokeEvent: 4
+    - _text: What happened to you?
+      _beatId: 3
+      _isAvailable: 0
+      _invokeEvent: -1
+  - _text: Y o u   s a y   s u c h   h u r t f u l   t h i n g s
+    _id: 2
+    _choices: []
+  - _text: I   w a s   a t t a c k e d
+    _id: 3
+    _choices:
+    - _text: Who attacked you?
+      _beatId: 4
+      _isAvailable: 0
+      _invokeEvent: -1
+  - _text: T h e   m o n s t e r s .   T h e y ' r e   c r a z y .   I   t h i n
+      k   th e y ' r e   j e a l o u s.
+    _id: 4
+    _choices:
+    - _text: Jealous of what?
+      _beatId: 5
+      _isAvailable: 0
+      _invokeEvent: -1
+    - _text: Are you ok?
+      _beatId: 6
+      _isAvailable: 0
+      _invokeEvent: 3
+  - _text: W h a t   a r e   y o u   t r y i n g   t o   s a y?
+    _id: 5
+    _choices:
+    - _text: Nothing. I'm just worried about you.
+      _beatId: 6
+      _isAvailable: 0
+      _invokeEvent: 3
+    - _text: Why would they be jealous?
+      _beatId: 2
+      _isAvailable: 0
+      _invokeEvent: 4
+  - _text: T h a n k   y o u .   I t ' s   b e e n   s o m e   t i m e   s i n c
+      e   s o m e o n e   w o r r i e d   a b o u t   m e .
+    _id: 6
+    _choices: []

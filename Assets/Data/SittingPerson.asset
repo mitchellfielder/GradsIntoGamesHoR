@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5d5e33bab057c43929a11bc8f25f44, type: 3}
+  m_Name: SittingPerson
+  m_EditorClassIdentifier: 
+  _beats:
+  - _text: I'm not going to hurt you.
+    _id: 1
+    _choices:
+    - _text: Where am I?
+      _beatId: 4
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: Who are you?
+      _beatId: 5
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: How do I leave this room?
+      _beatId: 2
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: Are you sure you want to leave?
+    _id: 2
+    _choices:
+    - _text: Just tell me
+      _beatId: 6
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: Why wouldn't I
+      _beatId: 3
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: There are terrible things in the darkness.
+    _id: 3
+    _choices:
+    - _text: Tell me how to leave the room
+      _beatId: 6
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: You're safe in this room.
+    _id: 4
+    _choices:
+    - _text: How do I leave?
+      _beatId: 2
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: You don't remember me? You must have hit your head pretty hard.
+    _id: 5
+    _choices:
+    - _text: How did I hit my head?
+      _beatId: 7
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: Did you attack me?
+      _beatId: 8
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: You need to input the password on the computer.
+    _id: 6
+    _choices:
+    - _text: What is the password?
+      _beatId: 9
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: I don't know. I think you did it on purpose
+    _id: 7
+    _choices:
+    - _text: Where am I?
+      _beatId: 4
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: How do I leave?
+      _beatId: 2
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: I would never. I've been keeping you safe for all this time.
+    _id: 8
+    _choices:
+    - _text: Where am I?
+      _beatId: 4
+      _isAvailable: 1
+      _invokeEvent: -1
+    - _text: How do I leave?
+      _beatId: 2
+      _isAvailable: 1
+      _invokeEvent: -1
+  - _text: ... "Mercy"
+    _id: 9
+    _choices:
+    - _text: '> Leave'
+      _beatId: 10
+      _isAvailable: 1
+      _invokeEvent: 2
+  - _text: Be safe.
+    _id: 9
+    _choices: []
